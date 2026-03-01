@@ -24,18 +24,31 @@ Fenomena dropout tidak hanya berdampak pada reputasi institusi, tetapi juga menu
   Membangun aplikasi berbasis Streamlit untuk menguji performa model terhadap data mahasiswa baru secara langsung.
 
 ### Persiapan
+**Setup environment:**
+1. **Membuat Virtual Environment (venv)**
+```bash
+pyhton -m venv venv
+```
+2. **Mengaktifkan Virtual Environment (venv)**
+- **windows**
+```bash
+.\venv\Scripts\activate
+```
+- **Linux / MacOS**
+```bash
+source venv/bin/activate
+```
+3. **Install Library**
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 ### Dataset Source
 
 - **Source:** [Dicoding Dataset - Students Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
 - **Context:** Data used for predicting student dropout and academic success.
-
-**Setup environment:**
-
-```bash
-# Untuk menjalankan Libraries
-pip install -r requirements.txt
-```
 
 ---
 
@@ -86,16 +99,31 @@ Proyek ini menghasilkan solusi terintegrasi yang terdiri dari dua pendekatan uta
 
 Model XGBoost yang diimplementasikan menunjukkan performa yang baik dengan skor **F1-Macro sebesar 0.7109**, sehingga dapat digunakan sebagai alat bantu pengambilan keputusan dalam mengidentifikasi mahasiswa berisiko dropout secara lebih dini dan akurat.
 
+### Faktor-Faktor Berpengaruh Terhadap Dropout
+
+- **Status Finansial (Tuition_fees_up_to_date)**
+  Merupakan prediktor terkuat. Ketidakmampuan membayar SPP tepat waktu berkorelasi langsung dengan risiko dropout yang sangat tinggi.
+- **Performa Akademik Awal**
+  Jumlah unit mata kuliah yang lulus (approved_units) di semester awal menentukan keberlanjutan studi mahasiswa.
+- **Dukungan Beasiswa**
+  Ketiadaan beasiswa membuat mahasiswa lebih rentan terhadap risiko finansial yang memicu dropout.
+
+### Karakteristik Umum Mahasiswa Dropout
+
+- **Akademik**
+  Memiliki rata-rata nilai semester yang rendah (rata-rata 6.57) dibandingkan mahasiswa yang lulus (rata-rata 12.67).=
+- **Finansial**
+  Mayoritas memiliki tunggakan SPP, berstatus memiliki hutang (debtor), dan tidak memiliki beasiswa.
+- **Demografi**
+  Cenderung memiliki usia lebih tua saat mendaftar (rata-rata 26 tahun) dan secara statistik didominasi oleh mahasiswa laki-laki.
+
 ### Rekomendasi Action Items
 
 - **Program Bantuan SPP**  
   Memberikan peringatan dini dan bantuan finansial kepada mahasiswa yang menunggak biaya kuliah.
-
 - **Early Warning System**  
   Mengintegrasikan model ke dalam sistem akademik untuk melakukan pengecekan risiko mahasiswa secara berkala setiap semester.
-
 - **Evaluasi Kurikulum dan Akademik**  
   Meninjau kembali program studi atau mata kuliah dengan tingkat kegagalan tertinggi berdasarkan hasil analisis dashboard.
-
 - **Pendampingan Akademik Terstruktur**  
   Menyediakan program mentoring atau bimbingan belajar khusus bagi mahasiswa dengan performa akademik rendah.
