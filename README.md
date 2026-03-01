@@ -33,7 +33,7 @@ Fenomena dropout tidak hanya berdampak pada reputasi institusi, tetapi juga menu
 **Setup environment:**
 
 ```bash
-# Untuk menjalankan Prototype Streamlit:
+# Untuk menjalankan Libraries
 pip install -r requirements.txt
 ```
 
@@ -66,13 +66,14 @@ Prototype dibuat menggunakan **Streamlit** untuk memungkinkan staf akademik mela
 2. Jalankan perintah berikut di terminal:
 
 ```bash
+#untuk run streamlit
 streamlit run app.py
 ```
 
 3. Masukkan data pada tab yang tersedia (Data Pribadi, Akademik, Semester) untuk melakukan pengujian prediksi.
 
 **Akses Prototype:**  
-[Link Prototype Streamlit Kamu di Sini](https://siswadropout.streamlit.app/)
+[Link Prototype Streamlit](https://siswadropout.streamlit.app/)
 
 ---
 
