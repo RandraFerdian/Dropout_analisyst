@@ -33,7 +33,7 @@ Fenomena dropout tidak hanya berdampak pada reputasi institusi, tetapi juga menu
 
 ```bash
 # Untuk menjalankan Prototype Streamlit:
-pip install streamlit pandas joblib scikit-learn xgboost
+pip install -r requirements.txt
 ```
 
 ---
