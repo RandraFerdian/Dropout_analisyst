@@ -26,8 +26,9 @@ Fenomena dropout tidak hanya berdampak pada reputasi institusi, tetapi juga menu
 ### Persiapan
 
 ### Dataset Source
-* **Source:** [Dicoding Dataset - Students Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
-* **Context:** Data used for predicting student dropout and academic success.
+
+- **Source:** [Dicoding Dataset - Students Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
+- **Context:** Data used for predicting student dropout and academic success.
 
 **Setup environment:**
 
@@ -71,7 +72,7 @@ streamlit run app.py
 3. Masukkan data pada tab yang tersedia (Data Pribadi, Akademik, Semester) untuk melakukan pengujian prediksi.
 
 **Akses Prototype:**  
-[Link Prototype Streamlit Kamu di Sini]
+[Link Prototype Streamlit Kamu di Sini](https://siswadropout.streamlit.app/)
 
 ---
 
