@@ -25,8 +25,9 @@ Fenomena dropout tidak hanya berdampak pada reputasi institusi, tetapi juga menu
 
 ### Persiapan
 
-**Sumber data:**  
-Predict Students Dropout and Academic Success Dataset.
+### Dataset Source
+* **Source:** [Dicoding Dataset - Students Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
+* **Context:** Data used for predicting student dropout and academic success.
 
 **Setup environment:**
 
@@ -50,8 +51,7 @@ Business dashboard dikembangkan menggunakan **Google Looker Studio** sebagai pus
 - **Evaluasi Strategis**  
   Memberikan dasar pengambilan keputusan berbasis data bagi pimpinan untuk merancang program bantuan finansial maupun akademik.
 
-**Akses Dashboard:**  
-[Link Google Looker Studio Kamu di Sini]
+* **Interactive Dashboard:** [Jaya Jaya Institut - Retention Analytics Dashboard](https://lookerstudio.google.com/reporting/840780fd-1bc0-4132-a066-61e39521f738)
 
 ---
 
